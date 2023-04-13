@@ -1,0 +1,394 @@
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:25: error: called object ‘my_username’ is not a function or function pointer
+   22 |     char *my_username = my_username();
+      |                         ^~~~~~~~~~~
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:11: note: declared here
+   22 |     char *my_username = my_username();
+      |           ^~~~~~~~~~~
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+~/temp/assignment-1-jercisco/finder-app ~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/jercisco1.txt
+Error: Could not create file /tmp/aeld-data/jercisco1.txt
+./writer.sh: line 16: /tmp/aeld-data/jercisco1.txt: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/p7X5SzfUpgLXzkIUZPyYKrUkx90zda28
+./writer.sh: line 16: /tmp/aeld-data/p7X5SzfUpgLXzkIUZPyYKrUkx90zda28/jercisco1.txt: No such file or directory
+/tmp/aeld-data/p7X5SzfUpgLXzkIUZPyYKrUkx90zda28/jercisco1.txt
+Error: Could not create file /tmp/aeld-data/p7X5SzfUpgLXzkIUZPyYKrUkx90zda28/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:25: error: called object ‘my_username’ is not a function or function pointer
+   22 |     char *my_username = my_username();
+      |                         ^~~~~~~~~~~
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:11: note: declared here
+   22 |     char *my_username = my_username();
+      |           ^~~~~~~~~~~
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+~/temp/assignment-1-jercisco/finder-app ~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/jercisco1.txt
+./writer.sh: line 16: /tmp/aeld-data/jercisco1.txt: No such file or directory
+Error: Could not create file /tmp/aeld-data/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/RorE415z8hNmjj1W3JlszpPuGGY1TwBm
+/tmp/aeld-data/RorE415z8hNmjj1W3JlszpPuGGY1TwBm/jercisco1.txt
+./writer.sh: line 16: /tmp/aeld-data/RorE415z8hNmjj1W3JlszpPuGGY1TwBm/jercisco1.txt: No such file or directory
+Error: Could not create file /tmp/aeld-data/RorE415z8hNmjj1W3JlszpPuGGY1TwBm/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:25: error: called object ‘my_username’ is not a function or function pointer
+   22 |     char *my_username = my_username();
+      |                         ^~~~~~~~~~~
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:11: note: declared here
+   22 |     char *my_username = my_username();
+      |           ^~~~~~~~~~~
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+~/temp/assignment-1-jercisco/finder-app ~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./writer.sh: line 16: /tmp/aeld-data/jercisco1.txt: No such file or directory
+/tmp/aeld-data/jercisco1.txt
+Error: Could not create file /tmp/aeld-data/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/spEzTpBNHwkoHQrFTVAqh1bSWvPNbEJQ
+./writer.sh: line 16: /tmp/aeld-data/spEzTpBNHwkoHQrFTVAqh1bSWvPNbEJQ/jercisco1.txt: No such file or directory
+/tmp/aeld-data/spEzTpBNHwkoHQrFTVAqh1bSWvPNbEJQ/jercisco1.txt
+Error: Could not create file /tmp/aeld-data/spEzTpBNHwkoHQrFTVAqh1bSWvPNbEJQ/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:25: error: called object ‘my_username’ is not a function or function pointer
+   22 |     char *my_username = my_username();
+      |                         ^~~~~~~~~~~
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:11: note: declared here
+   22 |     char *my_username = my_username();
+      |           ^~~~~~~~~~~
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+~/temp/assignment-1-jercisco/finder-app ~/temp/assignment-1-jercisco/assignment-autotest/test/assignment1 ~/temp/assignment-1-jercisco
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/jercisco1.txt
+./writer.sh: line 16: /tmp/aeld-data/jercisco1.txt: No such file or directory
+Error: Could not create file /tmp/aeld-data/jercisco1.txt
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/6O6RPyNjFOGwBDw0fjRsS2JiGsiflFT6
+/tmp/aeld-data/6O6RPyNjFOGwBDw0fjRsS2JiGsiflFT6/jercisco1.txt
+Error: Could not create file /tmp/aeld-data/6O6RPyNjFOGwBDw0fjRsS2JiGsiflFT6/jercisco1.txt
+./writer.sh: line 16: /tmp/aeld-data/6O6RPyNjFOGwBDw0fjRsS2JiGsiflFT6/jercisco1.txt: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:25: error: called object ‘my_username’ is not a function or function pointer
+   22 |     char *my_username = my_username();
+      |                         ^~~~~~~~~~~
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:11: note: declared here
+   22 |     char *my_username = my_username();
+      |           ^~~~~~~~~~~
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+No assignment-test script found for assignment
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/android/temp/assignment-1-jercisco/student-test/assignment1/Test_validate_username.c:22:29: error: initialization discards ‘const’ qualifier from pointer target type [-Werror=discarded-qualifiers]
+   22 |     char *my_username_str = my_username();
+      |                             ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:104: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+No assignment-test script found for assignment
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read jercisco from conf/username.txt
+/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+No assignment-test script found for assignment
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read jercisco from conf/username.txt
+/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+No assignment-test script found for assignment
+Running test with user android
+-- Generating ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/android/temp/assignment-1-jercisco/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/android/temp/assignment-1-jercisco/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read jercisco from conf/username.txt
+/home/android/temp/assignment-1-jercisco/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+No assignment-test script found for assignment
